@@ -73,7 +73,7 @@ variable "allowed_bastion_cidr_blocks_ipv6" {
 variable "allowed_traffic_cidr_blocks" {
   description = "List of CIDR blocks allowed to send requests to your consul server endpoint.  Defaults to EVERYWHERE."
   type        = list(string)
-  default     = ["116.88.98.210/32","121.6.23.211/32","121.6.138.246"]
+  default     = ["116.88.98.210/32","121.6.23.211/32","121.6.138.246/32"]
 }
 
 variable "allowed_traffic_cidr_blocks_ipv6" {
